@@ -22,7 +22,7 @@ public class MsmServiceImpl implements MsmService {
             return false;
 
         DefaultProfile profile =
-                DefaultProfile.getProfile("default", "LTAI4FzaV5A1D1kmK65xVB27", "RwcEKtJz7x9RUPF3yK7L09p5HzytVP");
+                DefaultProfile.getProfile("default", "key", "value");
         IAcsClient client = new DefaultAcsClient(profile);
 
         // 设置参数
