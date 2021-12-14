@@ -16,8 +16,8 @@ public class TestVod {
     // 上传视频的方法
 
     public static void uploadVideo() {
-        String accessKeyId = "LTAI4FzaV5A1D1kmK65xVB27";
-        String accessKeySecret = "RwcEKtJz7x9RUPF3yK7L09p5HzytVP";
+        String accessKeyId = "key";
+        String accessKeySecret = "value";
         // 上传之后的文件名称
         String title = "What If I Want to Move Faster";
         // 本地文件的路径和名称
