@@ -164,6 +164,10 @@
             <artifactId>activiti-explorer</artifactId>
             <exclusions>
                 <exclusion>
+                    <groupId>org.vaadin.addons</groupId>
+                    <artifactId>dcharts-widget</artifactId>
+                </exclusion>
+                <exclusion>
                     <artifactId>groovy-all</artifactId>
                     <groupId>org.codehaus.groovy</groupId>
                 </exclusion>
